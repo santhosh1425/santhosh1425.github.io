@@ -1,0 +1,129 @@
+body{
+    margin: 0%;
+}
+video{ 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+.main-title{
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    height: 60%;
+    padding-top: 5em;
+    padding-left: 24em;}
+#title-Name{
+    font-family: 'Rokkit',serif;
+    color: white;
+    border: 3px solid white;
+    width: 500px;
+    font-size: 3.5em;
+    padding-top: 15px;
+    padding-left:32px;
+    padding-bottom: 15px;
+    padding-right: 32px;
+}
+.main-content{
+    text-align: center;
+    display: block;
+}
+#about-page{
+    color: white;
+    font-size: 30px;
+    font-family: 'Merienda',cursive;
+    font-style: italic;
+    padding-top: 30px;
+    width:100%;
+    height:15%;
+    padding-bottom: 30px;
+}
+.about-me{
+    margin-top: 5em;
+    text-align: left;
+    padding-bottom: 19em;
+    border: 2px solid white;
+}
+#me{
+    font-family: 'Poppins',sans-serif;
+    text-decoration: underline;
+}
+#details{
+    color: ghostwhite;
+    display:block;
+    float: left;
+    font-size: 20px;
+    font-family: 'Cairo',sans-serif;
+    height: 15em;
+    width: 60%;
+    font-size: 20px;
+}
+#my-image{
+    height: 15em;
+    width: 40%;
+    float: right;
+    background-color:white;
+    margin-bottom:13em;
+}
+.my-works h2{
+    color: aliceblue;
+    justify-content: center;
+    padding-left: 17em;
+    padding-top: 2em;
+    padding-bottom: 2px;
+    font-family:serif;
+    font-size: 2em;
+}
+.works{
+    margin:1px;
+    padding-top: 3em;
+    padding-left: 4em;;
+    padding-right: 1px;
+    padding-bottom: 10em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    grid-auto-rows: minmax(100px, auto);
+    font-family: fantasy;
+    font-style: sans-serif;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+.login-page {
+    background: white;
+}
+
+
+    .login-pages:hover {
+	transform:scale(1.1,1.1);
+	transform-origin:0 0;
+    transform-style: preserve-3d;
+}
+
+    .forms:hover {
+	transform:scale(1.1,1.1);
+	transform-origin:0 0;
+}
+    .profile-cards:hover {
+	transform:scale(1.1,1.1);
+	transform-origin:0 0;
+}
+    .My-resume:hover {
+	transform:scale(1.1,1.1);
+	transform-origin:0 0;
+}
+    .My-bio:hover {
+	transform:scale(1.1,1.1);
+	transform-origin:0 0;
+}
+    .A-cute-shoppe-website:hover {
+	transform:scale(1.1,1.1);
+	transform-origin:0 0;
+}
+
