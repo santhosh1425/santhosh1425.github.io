@@ -1,58 +1,88 @@
 body{
     margin: 0%;
 }
-video{ 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translate(-50%, -50%);
-}
+
 .main-title{
+    background-image: url(field_of_corn_at_sunrise.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: center;
     text-align: center;
     font-family: sans-serif;
-    height: 60%;
-    padding-top: 5em;
-    padding-left: 24em;}
-#title-Name{
+    height: 86%;
+    padding-top: 9em;
+    padding-left: 20em;}
+.title-Name{
     font-family: 'Rokkit',serif;
-    color: white;
-    border: 3px solid white;
+    color: whitesmoke;
     width: 500px;
     font-size: 3.5em;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-left:32px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     padding-right: 32px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.main-title h3{
+    font-family: 'Rokkit',serif;
+    color: whitesmoke;
+    width: 500px;
+    font-size: 3.5em;
+    padding-top: 10px;
+    padding-left:15px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+#title-detail{
+    font-family: 'Rokkit',serif;
+    color: white;
+    font-size: 25px;
+}
+.main-title p{
+    display: block;
+    color:ghostwhite;
+    letter-spacing: 3px;
+}
+ul{
+    list-style-type: none;
+    display: inline;
+}
+li{
+    padding-top: 1em;
+    float: left;
+    font-family: serif;
+    font-size: 30px;
+    color: ghostwhite;
+    letter-spacing: 4px;
+    padding-left: 2em;
 }
 .main-content{
     text-align: center;
     display: block;
 }
 #about-page{
-    color: white;
+    margin-top: 0px;
+    padding-top:3em;
+ background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    color: black;
     font-size: 30px;
     font-family: 'Merienda',cursive;
     font-style: italic;
-    padding-top: 30px;
     width:100%;
-    height:15%;
-    padding-bottom: 30px;
+    height:250px;
+    margin-bottom: 0px;
 }
 .about-me{
-    margin-top: 5em;
     text-align: left;
     padding-bottom: 19em;
-    border: 2px solid white;
 }
 #me{
     font-family: 'Poppins',sans-serif;
-    text-decoration: underline;
+    font-size: 25px;
 }
 #details{
     color: ghostwhite;
@@ -60,27 +90,31 @@ video{
     float: left;
     font-size: 20px;
     font-family: 'Cairo',sans-serif;
-    height: 15em;
+    height: 25.1em;
     width: 60%;
     font-size: 20px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);)
 }
 #my-image{
-    height: 15em;
+    height: 30em;
     width: 40%;
     float: right;
     background-color:white;
-    margin-bottom:13em;
+    
 }
 .my-works h2{
-    color: aliceblue;
+    color: black;
     justify-content: center;
-    padding-left: 17em;
-    padding-top: 2em;
+    padding-left: 4em;
+    padding-top: 7em;
     padding-bottom: 2px;
     font-family:serif;
     font-size: 2em;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    margin: 0%;
 }
 .works{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
     margin:1px;
     padding-top: 3em;
     padding-left: 4em;;
